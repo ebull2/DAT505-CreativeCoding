@@ -53,20 +53,20 @@ function onWindowResize() {
 }
 
 
-// import {MTLLoader, OBJLoader} from 'three-obj-mtl-loader'
-//
+//  import {MTLLoader, OBJLoader} from 'three-obj-mtl-loader'
+// //
 // let scene = new THREE.Scene()
-//
-// let mtlLoader = new MTLLoader();
-//
+// //
+//  let mtlLoader = new MTLLoader();
+// //
 // let objLoader = new OBJLoader();
-//
-// mtlLoader.load('./test.mtl', (materials) => {
+// //
+//  mtlLoader.load('./test.mtl', (materials) => {
 //   materials.preload()
 //   objLoader.setMaterials(materials)
-//   objLoader.load('./test.obj', (object) => {
+//    objLoader.load('./test.obj', (object) => {
 //     scene.add(object)
-//   })
+//  })
 
 
 function geometry(){

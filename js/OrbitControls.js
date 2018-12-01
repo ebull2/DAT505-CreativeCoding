@@ -1,40 +1,4 @@
 
-Skip to content
-Why GitHub?
-Business
-Explore
-Marketplace
-Pricing
-
-Search
-
-Sign in
-Sign up
-2,414 46,607 17,680 mrdoob/three.js
- Code  Issues 560  Pull requests 195  Projects 1  Wiki  Insights
-Join GitHub today
-GitHub is home to over 28 million developers working together to host and review code, manage projects, and build software together.
-
-three.js/examples/js/controls/OrbitControls.js
-fa5956a  on 29 Oct
-@leshkovichpvl leshkovichpvl fix description
-@WestLangley @mrdoob @bhouston @yangchristian @lpsinger @rkirsling @erich666 @dubejf @s9k @mikaelgramont @gero3 @aardgoose @unconed @sehcheese @satori99 @mlknz @Mugen87 @BroHammie @makc @leshkovichpvl @jbaicoianu @KentJames @fkammer @elisee @chrmoritz @charlesfleche
-
-1052 lines (601 sloc)  22.1 KB
-/**
- * @author qiao / https://github.com/qiao
- * @author mrdoob / http://mrdoob.com
- * @author alteredq / http://alteredqualia.com/
- * @author WestLangley / http://github.com/WestLangley
- * @author erich666 / http://erichaines.com
- */
-
-// This set of controls performs orbiting, dollying (zooming), and panning.
-// Unlike TrackballControls, it maintains the "up" direction object.up (+Y by default).
-//
-//    Orbit - left mouse / touch: one-finger move
-//    Zoom - middle mouse, or mousewheel / touch: two-finger spread or squish
-//    Pan - right mouse, or left mouse + ctrl/meta/shiftKey, or arrow keys / touch: two-finger move
 
 THREE.OrbitControls = function ( object, domElement ) {
 
