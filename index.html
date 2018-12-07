@@ -8,15 +8,38 @@
 </head>
 
 <body>
-  <div id="canvas"></div>
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/98/three.min.js'></script>
-  <script src='js/OBJLoader.js'></script>
-  <script src='js/MTLLoader.js'></script>
-  <script src="js/WebGL.js"></script>
-  <script  src="js/index.js"></script>
+  <canvas id="c" width="400" height="300"></canvas>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/98/three.min.js'></script>
+    <script src="build/three.min.js"></script>
+    <script src='js/OBJLoader.js'></script>
+    <script src='js/MTLLoader.js'></script>
+    <script src="js/WebGL.js"></script>
+    <!-- <script src="js/frequency.js"></script> -->
+    <script src="js/index.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/displace.js"></script>
+    <script src="js/functions.js"></script>
 
-  <p>Here is a cylindrical wave moving on a three-dimensional lattice of atoms:</p>
+
+  <div class="view">
+
+  <script>
+    var parent = document.scripts[ document.scripts.length - 1 ].parentNode;
+    parent.displacement = function ( x, y, z, t, target ) {
+      if ( x * x + y * y + z * z < 0.01 ) {
+        return target.set( 0, 0, 0 );
+      } else {
+        var r = Math.sqrt( x * x + y * y + z * z );
+        var theta = Math.acos( z / r );
+        var phi = Math.atan2( y, x );
+        return target.set( 3 * Math.cos( phi ) * Math.sin( theta ) * Math.sin( r - t ) / r, 3 * Math.sin( phi ) * Math.sin( theta ) * Math.sin( r - t ) / r, 3 * Math.cos( theta ) * Math.sin( r - t ) / r );
+      }
+    };
+    parent.lattice = false;
+  </script>
+
+  </div>
 
 
 </body>

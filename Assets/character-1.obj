@@ -1,6 +1,6 @@
 # This file uses centimeters as units for non-parametric coordinates.
 
-mtllib redcharacter.mtl
+mtllib character-1.mtl
 g default
 v -1.179028 48.235931 3.808376
 v -2.740232 48.404900 3.522115
