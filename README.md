@@ -89,7 +89,7 @@ This is the options I have got for the frequency chart. As said above each optio
 ## GITHUB
 
  This is my Github link for the project : https://github.com/ebull2/DAT505-CreativeCoding
- This is my page for the project: ebull2/https-ebull2.github.io  
+ This is my page for the project: https://ebull2.github.io/
 
 ## CodePen
 
