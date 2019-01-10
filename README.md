@@ -45,7 +45,7 @@ Each script tag operates the project independently and uses them to operate the 
 
 <img width="729" alt="script" src="https://user-images.githubusercontent.com/33899472/50969494-98c33e80-14d6-11e9-818c-28f0ddc150f6.png">
 
-### Development of project
+## Development of project
 
 First I had to create a character in maya so that I had an object to work with. I had done this by importing an already template of a human body and then started to implement different shapes around it.
 
