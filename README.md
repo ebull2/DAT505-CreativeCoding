@@ -24,7 +24,7 @@ $ npm install --save dat.gui
 
 ```
 =======
->>>>>>> e899370a53fd467f9d2d7f529c62a5494004a4ea
+
 $ npm install
 $ npm run build
 ```
