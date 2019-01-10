@@ -47,6 +47,9 @@ Each script tag operates the project independently and uses them to operate the 
 
 ### Development of project
 
+To run the project just simply run the 'atom-live-server' nd a window should open in your default browser. The project should play sound so please do and turn your volume up to listen to the background music.
+
+<img width="387" alt="atom" src="https://user-images.githubusercontent.com/33899472/50969342-0f137100-14d6-11e9-8b40-f4925fa20364.png">
 
 First I had to create a character in maya so that I had an object to work with. I had done this by importing an already template of a human body and then started to implement different shapes around it.
 
@@ -54,11 +57,7 @@ First I had to create a character in maya so that I had an object to work with. 
 
 Then I started to add new materials to the model by saving images from the internet and then stated to UV edit the model to make it flat, so then I was able to use the image to cut out the parts I needed.
 
-To run the project just simply run the 'atom-live-server' nd a window should open in your default browser.
 
-<img width="387" alt="atom" src="https://user-images.githubusercontent.com/33899472/50969342-0f137100-14d6-11e9-8b40-f4925fa20364.png">
-
-The project should play sound so please do and turn your volume up to listen to the background music.
 
 <img width="500" alt="character" src="https://user-images.githubusercontent.com/33899472/50973565-1f7d1900-14e1-11e9-89df-996430b5a114.png">
 
