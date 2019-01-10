@@ -93,14 +93,7 @@ This is the options I have got for the frequency chart. As said above each optio
 ## CodePen
 
 This is my exercise work for the first example we had done. https://codepen.io/ebull2/pen/XxodOg
-=======
-Each script tag operates the project independantly and uses them to operate the project. Without these tags it will not run properly so please do and make sure that you have the correct folders. If not then you can download them from the 'three.js' website https://github.com/mrdoob/three.js/
 
-<img width="729" alt="script" src="https://user-images.githubusercontent.com/33899472/50969494-98c33e80-14d6-11e9-818c-28f0ddc150f6.png">
-
-### Development of project
-
-<img width="891" alt="1" src="https://user-images.githubusercontent.com/33899472/50969775-71b93c80-14d7-11e9-8fba-a3e8fbc2a261.png"> 
 
 
   
