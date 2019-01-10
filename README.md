@@ -32,12 +32,9 @@ The project should play sound so please do and turn your volume up to play the
 
 ### And coding style tests
 
-Each
+Each script tag operates the project independantly and uses them to operate the project. Without these tags it will not run properly so please do and make sure that you have the correct folders. If not then you can download them from the 'three.js' website https://github.com/mrdoob/three.js/
 
-```
-Give an example
-```
-
+<img width="729" alt="script" src="https://user-images.githubusercontent.com/33899472/50969494-98c33e80-14d6-11e9-818c-28f0ddc150f6.png">
 
 
 ## Built With
