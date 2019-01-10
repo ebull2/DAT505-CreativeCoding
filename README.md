@@ -58,8 +58,7 @@ To run the project just simply run the 'atom-live-server' nd a window should ope
 
 <img width="387" alt="atom" src="https://user-images.githubusercontent.com/33899472/50969342-0f137100-14d6-11e9-8b40-f4925fa20364.png">
 
-The project should play sound so please do and turn your volume up to play the 
->>>>>>> e899370a53fd467f9d2d7f529c62a5494004a4ea
+The project should play sound so please do and turn your volume up to listen to the background music.
 
 <img width="500" alt="character" src="https://user-images.githubusercontent.com/33899472/50973565-1f7d1900-14e1-11e9-89df-996430b5a114.png">
 
@@ -91,4 +90,4 @@ This is my exercise work for the first example we had done. https://codepen.io/e
 
   
 
->>>>>>> e899370a53fd467f9d2d7f529c62a5494004a4ea
+
