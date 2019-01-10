@@ -36,11 +36,7 @@ Each script tag operates the project independantly and uses them to operate the 
 
 <img width="729" alt="script" src="https://user-images.githubusercontent.com/33899472/50969494-98c33e80-14d6-11e9-818c-28f0ddc150f6.png">
 
+### Development of project
 
-## Built With
+  
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-#
