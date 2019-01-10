@@ -38,6 +38,7 @@ Each script tag operates the project independantly and uses them to operate the 
 
 ### Development of project
 
+<img width="891" alt="1" src="https://user-images.githubusercontent.com/33899472/50969775-71b93c80-14d7-11e9-8fba-a3e8fbc2a261.png"> 
 
 
   
