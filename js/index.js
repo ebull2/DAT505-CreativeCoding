@@ -45,7 +45,7 @@ function init(){
   renderer.setPixelRatio((window.devicePixelRatio) ? window.devicePixelRatio :2);
   renderer.setSize( window.innerWidth, window.innerHeight );
   renderer.autoClear = false;
-  renderer.setClearColor(0xD8D8D8, 1.0);
+  renderer.setClearColor(0xD8D8D8, 1.0); //Desired background colour
   document.getElementById('canvas').appendChild(renderer.domElement);
   //----------------------------------------------------------------------------
 
