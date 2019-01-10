@@ -33,7 +33,7 @@ $ npm run build
 ## Running the tests
 
 
-To run the project just simply run the 'atom-live-server' and a window should open in your default browser.
+To run the project just simply run the 'atom-live-server' and a window should open in your default browser. 
 
 <img width="387" alt="atom" src="https://user-images.githubusercontent.com/33899472/50969342-0f137100-14d6-11e9-8b40-f4925fa20364.png">
 
@@ -46,10 +46,6 @@ Each script tag operates the project independently and uses them to operate the 
 <img width="729" alt="script" src="https://user-images.githubusercontent.com/33899472/50969494-98c33e80-14d6-11e9-818c-28f0ddc150f6.png">
 
 ### Development of project
-
-To run the project just simply run the 'atom-live-server' nd a window should open in your default browser. The project should play sound so please do and turn your volume up to listen to the background music.
-
-<img width="387" alt="atom" src="https://user-images.githubusercontent.com/33899472/50969342-0f137100-14d6-11e9-8b40-f4925fa20364.png">
 
 First I had to create a character in maya so that I had an object to work with. I had done this by importing an already template of a human body and then started to implement different shapes around it.
 
