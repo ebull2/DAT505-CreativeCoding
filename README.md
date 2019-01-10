@@ -20,7 +20,7 @@ $ npm install
 $ npm run build
 
 
-![alt text](desktop/dat.png)
+<img width="565" alt="dat" src="https://user-images.githubusercontent.com/33899472/50969082-1be39500-14d5-11e9-9e63-58a3b6d6f4c1.png">
 
 ### Installing
 
