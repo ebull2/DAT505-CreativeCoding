@@ -30,7 +30,7 @@ window.onload = function() {
   character7();
   //run scene
   animate();
-  //vaue for dat gui.
+  //value for dat gui.
   setValue();
 
 
@@ -50,7 +50,6 @@ function init(){
   //----------------------------------------------------------------------------
 
 
-
   // Create an empty scene
   scene = new THREE.Scene();
   currentScene = 0;
@@ -66,8 +65,8 @@ function init(){
   scene.add(ambientLight);
 
   var lights = [];
-  lights[0] = new THREE.DirectionalLight( 0xffffff, 0.5);
-  lights[0].position.set(1, 0, 0);
+  lights[0] = new THREE.DirectionalLight( 0xffffff, 0.5); //These lighting settings will determine the outcome of the object. If the lighting is set low the object mterial would not
+  lights[0].position.set(1, 0, 0);                        // as visible.
   lights[1] = new THREE.DirectionalLight( 0x11E8BB, 0.5);
   lights[1].position.set(0.75, 1, 0.5);
   lights[2] = new THREE.DirectionalLight( 0x8200C9, 0.5);
@@ -85,7 +84,7 @@ function init(){
 
   // load a sound and set it as the Audio object's buffer
   var audioLoader = new THREE.AudioLoader();
-  audioLoader.load( 'sounds/flute.mp3', function( buffer ) {
+  audioLoader.load( 'sounds/flute.mp3', function( buffer ) { //This is the sound i have chosen to play in the background.
     sound.setBuffer( buffer );
     sound.setLoop( true );
     sound.setVolume( 0.5 );
@@ -94,7 +93,7 @@ function init(){
 
 
 
-  // this isthe set up for my dat gui.
+  // this is the set up for dat gui.
   var sampleMaterial = function() {
     this.octoMain = "character";
   };
@@ -103,7 +102,7 @@ function init(){
     material = new sampleMaterial();
 
     var gui = new dat.GUI();
-    gui.add(material, 'octoMain',["shame", "fear", "desire", "neutrality", "acceptance", "love", "enlightenment"]).onChange(setValue);
+    gui.add(material, 'octoMain',["shame", "fear", "desire", "neutrality", "acceptance", "love", "enlightenment"]).onChange(setValue); //The list options that will be represented to the user.
 
 
   function setValue() {
@@ -118,7 +117,7 @@ function init(){
 }
 
 
-function onWindowResize() {
+function onWindowResize() { //This is to set defualt size for the window.
     camera.aspect = window.innerWidth / window.innerHeight;
     renderer.setSize(window.innerWidth, window.innerHeight);
     camera.updateProjectionMatrix();
@@ -126,6 +125,7 @@ function onWindowResize() {
 
 
 
+//Loading of all objects, materials, and mes materials.
 
   function character1(){
   //Create the geometric objects
@@ -446,15 +446,11 @@ console.log(octoMain);
 }
 
 
-
-
-
-
 // Render Loop
 function animate(){
   requestAnimationFrame(animate);
 
-  octoMain.rotation.y -= 0.0040;
+  octoMain.rotation.y -= 0.0040; //Set the rotation speed for the object.
 
 
   // Render the scene
