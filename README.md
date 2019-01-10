@@ -60,12 +60,12 @@ To run the project just simply run the 'atom-live-server' nd a window should ope
 
 <img width="387" alt="atom" src="https://user-images.githubusercontent.com/33899472/50969342-0f137100-14d6-11e9-8b40-f4925fa20364.png">
 
-The project should play sound so please do and turn your volume up to play the 
->>>>>>> e899370a53fd467f9d2d7f529c62a5494004a4ea
+The project should play sound so please do and turn your volume up to play the
+
 
 <img width="500" alt="character" src="https://user-images.githubusercontent.com/33899472/50973565-1f7d1900-14e1-11e9-89df-996430b5a114.png">
 
-<<<<<<< HEAD
+
 
 
 On the coding aspect of it, I imported the object and material that I had created with 'maya' and gave it a desired position and rotation.  I had then used the MeshPhongMaterial function to set up an outer sphere around the character.
@@ -100,9 +100,9 @@ Each script tag operates the project independantly and uses them to operate the 
 
 ### Development of project
 
-<img width="891" alt="1" src="https://user-images.githubusercontent.com/33899472/50969775-71b93c80-14d7-11e9-8fba-a3e8fbc2a261.png"> 
+<img width="891" alt="1" src="https://user-images.githubusercontent.com/33899472/50969775-71b93c80-14d7-11e9-8fba-a3e8fbc2a261.png">
 
 
-  
+
 
 >>>>>>> e899370a53fd467f9d2d7f529c62a5494004a4ea
