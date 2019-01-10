@@ -28,6 +28,8 @@ $ npm run build
 
 To run the project just simply run the 'atom-live-server' nd a window should open in your default browser.
 
+<img width="387" alt="atom" src="https://user-images.githubusercontent.com/33899472/50969342-0f137100-14d6-11e9-8b40-f4925fa20364.png">
+
 
 ### Break down into end to end tests
 
